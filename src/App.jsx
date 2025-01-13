@@ -63,7 +63,7 @@ function App() {
   //確認是否登入
   const checkIsLogined = () => {
     axios.post(`${API_BASE}/api/user/check`)
-      .then((res) => { alert("您已經登入") })
+      .then((res) => alert("您已經登入"))
       .catch((err) => console.error(err))
   }
 

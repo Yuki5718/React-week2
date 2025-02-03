@@ -136,11 +136,11 @@ function App() {
             <form onSubmit={submitLogin} className="d-flex flex-column">
               <div className="mb-3">
                 <label htmlFor="Email" className="form-label">Email address</label>
-                <input name="username" type="email" className="form-control" id="Email" placeholder="Email address" onChange={handleInputAccount} />
+                <input name="username" type="email" className="form-control" id="email" placeholder="Email address" onChange={handleInputAccount} />
               </div>
               <div className="mb-3">
                 <label htmlFor="Password" className="form-label">Password</label>
-                <input name="password" type="password" className="form-control" id="Password" placeholder="Password" onChange={handleInputAccount} />
+                <input name="password" type="password" className="form-control" id="password" placeholder="Password" onChange={handleInputAccount} />
               </div>
               <button className="btn btn-primary">登入</button>
             </form>
